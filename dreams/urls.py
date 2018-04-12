@@ -10,7 +10,6 @@ router = routers.DefaultRouter()
 router.register(r'dreams', DreamViewSet)
 
 urlpatterns = [
-    #url(r'^docs/', include('rest_framework_swagger.urls')),
     url(r'^docs/', schema_view),
 ]
 urlpatterns += router.urls

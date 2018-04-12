@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-# Create your models here.
+# Create dreams model with corresponding attributes.
 class Dreams(models.Model):
     dreams_id = models.AutoField(primary_key=True)
     username = models.CharField(max_length=150)

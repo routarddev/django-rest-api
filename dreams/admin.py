@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 
-# Register your models here.
+# Register models.
 from .models import Dreams
 
 admin.site.register(Dreams)
